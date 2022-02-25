@@ -1,0 +1,47 @@
+* {
+	color: #FFFFFF;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	box-sizing: border-box;
+}
+html, body {
+	background-color: #404040;
+}
+
+.topNav {
+	background-color: #505050;
+	position: absolute;
+	width: 100vw;
+	height: 10vh;
+	top:0;
+	left:0;
+}
+
+.title {
+	color: #FFFFFF;
+	position: relative;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	top: 25%;
+	left: 1vw;
+	font-size: 6.5vh;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.back {
+	border:none;
+	border-radius:100px;
+	color:#FFFFFF;
+	background-color:#505050;
+	position:absolute;
+	top:15vh;
+	padding:5px 10px;
+	font-size: 5vh;
+	transition: .2s;
+	left: 5vw;
+}
+
+.back:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+	cursor:pointer;
+}

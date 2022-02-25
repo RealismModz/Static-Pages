@@ -1,0 +1,93 @@
+* {
+	color: #FFFFFF;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	box-sizing: border-box;
+}
+html, body {
+	background-color: #404040;
+}
+
+.topNav {
+	background-color: #505050;
+	position: absolute;
+	width: 100vw;
+	height: 10vh;
+	top:0;
+	left:0;
+}
+
+.title {
+	color: #FFFFFF;
+	position: relative;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	top: 25%;
+	left: 1vw;
+	font-size: 6.5vh;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.gameContainer {
+	width: 90vw;
+	height: auto;
+	top: 9vh;
+	left: 5vw;
+	position: relative;
+	background-color: #505050;
+}
+
+.column {
+  float: none;
+  margin-left: 50px;
+  width: 100%;
+  padding: 10px;
+  height: 10%;
+}
+
+.row:after {
+  content: "";
+  display: inline-grid;
+  clear: both;
+}
+
+.game {
+	position: relative;
+	border-radius: 20px;
+	background-color: #606060;
+	width: 80%;
+	height: 50vh;
+	padding: 25px;
+}
+
+.gametitle {
+	font-size: 5vh;
+	width: auto;
+}
+
+.playbutton {
+	position: relative;
+	background-color: #228B22;
+	border: none;
+	color: #FFFFFF;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	padding: 15px 25px;
+	border-radius:100px;
+	font-size:5vh;
+	width: 95%;
+	font-weight: bolder;
+	top: -7.5vh;
+	transition: .2s;
+}
+
+.playbutton:hover {
+	color: #000000;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	position: relative;
+}
+.gameIcon {
+	position: relative;
+	width:20%;
+	float: right;
+	top: -35%;
+}
